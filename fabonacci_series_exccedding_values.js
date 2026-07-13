@@ -15,9 +15,9 @@ function fabbonacci(n) {
         a = b;
         b = res;
     }
-    return b
+    return res
 }
-// console.log(fabbonacci(8));
+console.log(fabbonacci(6));
 
 
 function fabbonacci_series(n) {
@@ -31,6 +31,6 @@ function fabbonacci_series(n) {
     return res;
 }
 
-console.log(fabbonacci_series(10));
-console.log(fabbonacci_series(100))
-console.log(fabbonacci_series(13))
+// console.log(fabbonacci_series(10));
+// console.log(fabbonacci_series(100))
+// console.log(fabbonacci_series(13))
