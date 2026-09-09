@@ -15,9 +15,9 @@ function duplicatesPair(arr){
             count++
         }
     }
-    return count;
+    return count, arr[start,end];
 }
-// console.log(duplicatesPair([10, 20, 20, 10, 10, 30, 50, 10, 20]))
+console.log(duplicatesPair([10, 20, 20, 10, 10, 30, 50, 10, 20]))
 
 function printDuplicate(arr){
     let unique=new Set(arr)
@@ -25,10 +25,10 @@ function printDuplicate(arr){
     let duplicates=arr.length-unique.size
     return duplicates
 }
-console.log(printDuplicate([10, 20, 20, 10, 10, 30, 50, 10, 20]))
+// console.log(printDuplicate([10, 20, 20, 10, 10, 30, 50, 10, 20]))
 
 function unique(arr){
     let set=new Set(arr)
     return [...set]
 }
-console.log(unique([10, 20, 20, 10, 10, 30, 50, 10, 20]))
+// console.log(unique([10, 20, 20, 10, 10, 30, 50, 10, 20]))
